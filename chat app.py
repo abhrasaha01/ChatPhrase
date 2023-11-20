@@ -34,7 +34,7 @@ xr = 0
  
 def SendMsg():
     global xr
-    if xr == 0:
+    if xr == 0:                                          #to establish connection
         s=socket.socket()
         hostname=''                                       #insert the destination system name
         port=4050
